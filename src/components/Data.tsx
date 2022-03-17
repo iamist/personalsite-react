@@ -1,10 +1,3 @@
-export const navLinks = [
-    { label: 'home', href: '/' },
-    { label: 'about', href: '/about' },
-    { label: 'blog', href: '/blog' },
-    { label: 'contact', href: '/contact' },
-];
-
 export const experiences = [
     {
         date: {
