@@ -1,10 +1,9 @@
-import React from "react";
-
+import React from 'react';
+import {NavLink} from 'react-router-dom';
 interface IHeaderNav {
-    label: string
-    href: string
+    page: string
+    path: string
 }
-
 interface IProps {
     headerNavItems: Array<IHeaderNav>
 }
@@ -20,8 +19,8 @@ const Header: React.FC<IProps> = ({headerNavItems}) => {
                  <ul className="nav md:flex md:items-center uppercase">
                      {
                          headerNavItems.map( link => (
-                             <li key={link.label.toLocaleLowerCase()} className="md:ml-8 text-sm">
-                                 <a className="text-sky-500 hover:text-sky-900 duration-500" href={link.href}>{link.label}</a>
+                             <li key={link.page.toLocaleLowerCase()}className="md:ml-8 text-sm">
+                                 <NavLink className="text-sky-500 hover:text-sky-900 duration-500" to={link.path}>{link.page}</NavLink>
                              </li>
                          ))
                      }
