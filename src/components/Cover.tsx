@@ -4,7 +4,7 @@ import resumePhoto from "../assets/img/resume-pic.png";
 const Cover: React.FC = () => {
     return (
         <div className="flex justify-between items-center font-body">
-            <div className="container relative pt-20 sm:pt-56 lg:pt-64 pb-12 sm:pb-48 lg:pb-48">
+            <div className="container pb-12 sm:pb-48 lg:pb-48">
                 <div className="flex flex-col lg:flex-row justify-center items-center">
                     <div className="rounded-full border-8 border-sky-100 shadow-xl">
                         <img src={resumePhoto} className="h-48 sm:h-56 rounded-full" alt="Profile"/>
