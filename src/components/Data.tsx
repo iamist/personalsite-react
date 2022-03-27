@@ -57,7 +57,7 @@ export const experiences = [
         },
         company: 'Webfocus.ph',
         position: 'Senior Web Developer',
-        summary: 'Involved in development of various projects. Mentored junior developers. Led the development of building modular based libraries used to build website for clients.',
+        summary: 'Involved in development of various projects. Mentored junior developers and at some point led the development of building modular based libraries used to build website for clients.',
         tech: [
             'ASP3, PHP/MySQL, ApacheTM, IIS, Memcache, MsAccess, MsSQL, Macromedia Fireworks, Flash, Adobo Photoshop'
         ]
@@ -67,72 +67,72 @@ export const experiences = [
 export const techStacks = [
     {
         title: 'NodeJs, PHP, Javascript, CSS, HTML',
-        progressLabel: 'Excelent',
+        // progressLabel: 'Excelent',
         progress: 90
     },
     {
         title: 'MySQL',
-        progressLabel: 'Excelent',
+        // progressLabel: 'Excelent',
         progress: 90
     },
     {
         title: 'Symfony2, ZendFramework 1',
-        progressLabel: 'Very Good',
+        // progressLabel: 'Very Good',
         progress: 75
     },
     {
         title: 'AngularJs, BackboneJs, JQuery',
-        progressLabel: 'Very Good',
+        // progressLabel: 'Very Good',
         progress: 75
     },
     {
         title: 'Mocha, Chai, Jasmine, Sinon, PHPUnit',
-        progressLabel: 'Very Good',
+        // progressLabel: 'Very Good',
         progress: 75
     },
     {
         title: 'LESS, Sass, Webpack, Grunt, NPM, Yarn',
-        progressLabel: 'Very Good',
+        // progressLabel: 'Very Good',
         progress: 75
     },
     {
         title: 'MacOS, Windows, Linux',
-        progressLabel: 'Very Good',
+        // progressLabel: 'Very Good',
         progress: 75
     },
     {
         title: 'Apache2, Nginx',
-        progressLabel: 'Very Good',
+        // progressLabel: 'Very Good',
         progress: 75
     },
     {
         title: 'AWS, Docker, Jenkins, AppDynamics, Splunk, Jmeter',
-        progressLabel: 'Good',
+        // progressLabel: 'Good',
         progress: 50
     },
     {
         title: 'Laravel, CodeIgniter',
-        progressLabel: 'Good',
+        // progressLabel: 'Good',
         progress: 50
     },
     {
         title: 'Java',
-        progressLabel: 'Good',
+        // progressLabel: 'Good',
         progress: 50
     },
     {
         title: 'MongoDB, Redis, Memcached',
-        progressLabel: 'Good',
+        // progressLabel: 'Good',
         progress: 50
     },
     {
         title: 'ReactJs',
-        progressLabel: 'Good',
+        // progressLabel: 'Good',
         progress: 50
     },
     {
         title: 'Angular',
-        progressLabel: 'Good',
+        // progressLabel: 'Good',
         progress: 50
     }
 ];

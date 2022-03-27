@@ -10,9 +10,9 @@ interface IProps {
 
 const Header: React.FC<IProps> = ({headerNavItems}) => {
     return (
-        <div className="w-full bg-slate-50 shadow-md absolute top-0 left-0">
-            <div className="container md:flex items-center justify-between py-4 md:px-10 px-7">
-                 <div className="brand font-bold text-2xl flex flex-column items-center py-4 text-sky-400">
+        <div className="w-full bg-zinc-800 border-b-zinc-900 border-b-2">
+            <div className="container md:flex items-center justify-between">
+                 <div className="brand font-bold text-2xl flex flex-column items-center py-4">
                      {/* <img src={logo} alt="logo" className="h-6 logo" /> */}
                      iamist
                  </div>
@@ -20,7 +20,7 @@ const Header: React.FC<IProps> = ({headerNavItems}) => {
                      {
                          headerNavItems.map( link => (
                              <li key={link.page.toLocaleLowerCase()}className="md:ml-8 text-sm">
-                                 <NavLink className="text-sky-500 hover:text-sky-900 duration-500" to={link.path}>{link.page}</NavLink>
+                                 <NavLink className="duration-500 text-orange-600" to={link.path}>{link.page}</NavLink>
                              </li>
                          ))
                      }
