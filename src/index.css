@@ -15,6 +15,10 @@ a:hover {
     @apply text-orange-500;
 }
 
+p {
+    @apply my-10;
+}
+
 .container {
     @apply w-9/12;
 }
@@ -40,4 +44,16 @@ a:hover {
 
 .section-title {
     @apply text-4xl mb-10 font-bold inline-block pb-4 border-b-4 border-b-zinc-700;
+}
+
+.cover-social #socialMedia {
+    @apply justify-start;
+}
+
+.cover-social #socialMedia a {
+    @apply text-slate-600 text-xl;
+}
+
+.cover-social #socialMedia a:hover {
+    @apply text-orange-600;
 }

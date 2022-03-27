@@ -1,7 +1,8 @@
 import React from 'react';
 import {NavLink} from 'react-router-dom';
+import { JsxElement } from 'typescript';
 interface IHeaderNav {
-    page: string
+    page: string|JsxElement
     path: string
 }
 interface IProps {
@@ -10,16 +11,15 @@ interface IProps {
 
 const Header: React.FC<IProps> = ({headerNavItems}) => {
     return (
-        <div className="w-full bg-zinc-800 border-b-zinc-900 border-b-2">
+        <div className="w-full bg-zinc-900 border-b-zinc-900 border-b-2">
             <div className="container md:flex items-center justify-between">
                  <div className="brand font-bold text-2xl flex flex-column items-center py-4">
-                     {/* <img src={logo} alt="logo" className="h-6 logo" /> */}
-                     iamist
+                    {'<iamist/>'}
                  </div>
-                 <ul className="nav md:flex md:items-center uppercase">
+                 <ul className="nav md:flex md:items-center">
                      {
                          headerNavItems.map( link => (
-                             <li key={link.page.toLocaleLowerCase()}className="md:ml-8 text-sm">
+                             <li key={link.path}className="md:ml-8 text-sm">
                                  <NavLink className="duration-500 text-orange-600" to={link.path}>{link.page}</NavLink>
                              </li>
                          ))

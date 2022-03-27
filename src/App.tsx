@@ -8,9 +8,9 @@ import Pages from './pages';
 
 function App() {
   return (
-    <div className="app m-auto">
+    <div className="app flex flex-col min-h-screen justify-between">
       <Header headerNavItems={Pages} />
-      <div className="main-wrapper">
+      <div className="main-wrapper flex-1">
         <Routes>
           {
             Pages.map( page => {
