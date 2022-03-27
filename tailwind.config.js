@@ -1,16 +1,28 @@
+const defaultTheme = require('tailwindcss/defaultTheme');
+
 module.exports = {
+  purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
+  darkMode: 'class',
+
   content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
+    './src/**/*.{js,jsx,ts,tsx}',
   ],
   theme: {
+    extend: {
+      fontFamily: {
+        raleway: ['Raleway', 'sans-serif'],
+        openSans: ['Open Sans', 'sans-serif']
+      }
+    },
+
     fontFamily: {
-      header: ['Raleway', "sans-serif"],
-      body: ['Open Sans', "sans-serif"]
+      sans: ['Open Sans', ...defaultTheme.fontFamily.sans],
+      serif: ['Raleway', ...defaultTheme.fontFamily.serif]
     },
 
     container: {
-        center: true,
-        padding: "1rem"
+      padding: '3rem',
+      center: true
     },
 
     extend: {},
