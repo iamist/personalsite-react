@@ -1,7 +1,5 @@
-import React from 'react';
 import {Route, Routes} from 'react-router-dom';
 
-import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
@@ -10,11 +8,9 @@ import Pages from './pages';
 
 function App() {
   return (
-    <div className="App container">
+    <div className="app m-auto">
       <Header headerNavItems={Pages} />
-      <div
-      className="main-wrapper container mt-20 sm:mt-40 lg:mt-50 sm:pb-20 lg:pb-30"
-      >
+      <div className="main-wrapper">
         <Routes>
           {
             Pages.map( page => {
