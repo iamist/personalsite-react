@@ -1,5 +1,5 @@
 import React from "react";
-import resumePhoto from "../assets/img/web-photo.png";
+import resumePhoto from "../assets/img/web-pic.png";
 
 const AboutMe: React.FC = () => {
     return (

@@ -15,22 +15,18 @@ a:hover {
     @apply text-orange-500;
 }
 
-p {
-    @apply my-10;
+p, h3, h2 {
+    @apply my-2;
 }
 
 .container {
-    @apply w-9/12;
+    @apply w-full;
 }
 
 .experience-block:hover,
 .experience-block:hover .dot-timeline,
 .experience-block:hover .connect-h-timeline {
-    @apply bg-zinc-700 drop-shadow-xl;
-}
-
-.experience-block:hover .dot-timeline {
-    @apply bg-orange-600;
+    @apply bg-emerald-900 drop-shadow-xl;
 }
 
 .experience-block:hover .date,

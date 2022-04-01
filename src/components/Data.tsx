@@ -66,7 +66,7 @@ export const experiences = [
 
 export const techStacks = [
     {
-        title: 'NodeJs, PHP, Javascript, CSS, HTML',
+        title: 'NodeJS, PHP, Javascript, CSS, HTML',
         // progressLabel: 'Excelent',
         progress: 90
     },
@@ -81,7 +81,7 @@ export const techStacks = [
         progress: 75
     },
     {
-        title: 'AngularJs, BackboneJs, JQuery',
+        title: 'AngularJS, BackboneJS, JQuery',
         // progressLabel: 'Very Good',
         progress: 75
     },
@@ -126,7 +126,7 @@ export const techStacks = [
         progress: 50
     },
     {
-        title: 'ReactJs',
+        title: 'ReactJS',
         // progressLabel: 'Good',
         progress: 50
     },

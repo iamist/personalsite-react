@@ -1,25 +1,34 @@
 import React from "react";
-import resumePhoto from "../assets/img/web-photo.png";
+import resumePhoto from "../assets/img/web-pic.png";
+import coverBg from "../assets/img/cover-bg.png";
 import SocialMedia from "./SocialMedia";
+import styled from "styled-components";
+
+const CoverBgContainer = styled.div.attrs({
+    className: 'bg-zinc-900 py-10 bg-no-repeat bg-cover bg-cover'
+})
+`& {
+    background-image: url(${coverBg})
+}`
 
 const Cover: React.FC = () => {
     return (
-        <div className="bg-gradient-to-b py-10 from-zinc-800 to-zinc-900">
-            <div className="container flex justify-between items-center">
-                <div className="flex flex-col mr-20">
-                    <h1 className="text-4xl font-bold text-orange-600 sm:text-5xl md:text-6xl text-center sm:text-left">Hello, I'm Christian Vicente</h1>
-                    <p className="text-3xl sm:text-left pt-3 sm:pt-5">
-                        A <span className="text-slate-200 inline-block">fullstack web developer</span> passionate in building awesome projects for the Web.
+        <CoverBgContainer>
+            <div className="container relative sm:flex sm:justify-between sm:items-center">
+                <div className="sm:pr-10 sm:order-2">
+                    <img src={resumePhoto} className="border-4 border-zinc-800 max-w-full rounded-full shadow-sm drop-shadow-lg object-fit h-auto w-60 m-auto mb-10 sm:mb-0" alt="Profile"/>
+                </div>
+                <div className="sm:flex sm:flex-col sm:mr-20 sm:order-1">
+                    <h1 className="text-3xl sm:text-4xl">Hello, I am <span className="text-slate-200 px-4 bg-orange-600">Christian Vicente</span></h1>
+                    <p className="text-3xl sm:text-left my-4 py-0 sm:pt-3">
+                        A <span className="text-slate-200 inline">fullstack web developer</span> passionate in building awesome projects for the Web.
                     </p>
                     <div className="cover-social mt-10 w-2/12">
                         <SocialMedia />
                     </div>
                 </div>
-                <div className="pl-10">
-                    <img src={resumePhoto} className="border-4 border-zinc-800 max-w-full rounded-full shadow-sm drop-shadow-lg" alt="Profile"/>
-                </div>
             </div>
-        </div>
+        </CoverBgContainer>
     )
 };
 
