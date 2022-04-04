@@ -16,7 +16,7 @@ a:hover {
 }
 
 p, h3, h2 {
-    @apply my-2;
+    @apply my-6;
 }
 
 .container {

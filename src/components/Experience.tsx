@@ -29,7 +29,7 @@ const Experience: React.FC<IProps> = ({experiences}) => {
                                 <div className="flex-auto">
                                     <h3 className="text-md exp-position">
 
-                                        <span className="rounded-full mb-2 mr-2 inline-block px-4 py-1 text-xs text-slate-200 bg-neutral-800">{experience.date.from} to {experience.date.to}</span>
+                                        <span className="rounded-sm mb-2 mr-2 inline-block px-4 py-2 text-xs text-slate-200 bg-neutral-900">{experience.date.from} to {experience.date.to}</span>
 
                                         {experience.position}
                                     </h3>
