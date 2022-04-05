@@ -22,7 +22,7 @@ interface IProgressBar {
 const ProgressBar: React.FC<IProgressBar> = ({title, progressLabel, progress}) => {
     return (
         <div className="mb-5">
-            <label htmlFor="" className="px-4 py-2 lg:text-md inline-block text-slate-300">{title}</label>
+            <label htmlFor="" className="py-2 lg:text-md inline-block text-slate-300">{title}</label>
             <div className="w-full bg-slate-700 rounded-full">
                 <ProgressIndicator progress={progress}>{progressLabel}</ProgressIndicator>
             </div>

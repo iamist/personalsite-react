@@ -21,7 +21,7 @@ const Experience: React.FC<IProps> = ({experiences}) => {
     return (
         <div className="bg-zinc-900 py-10">
             <div className="container">
-                <h2 className="section-title">Experience</h2>
+                <h2 className="text-4xl section-title">Experience</h2>
                 {
                     experiences.map(experience => {
                         return (

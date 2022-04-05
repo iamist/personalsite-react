@@ -16,8 +16,8 @@ const TechSkiils : React.FC<IProps> = ({techStacks}) => {
         <div className="bg-zinc-800 py-10">
             <div className="container">
                 <div className="relative pb-20">
-                    <h2 className="section-title">Technical Stacks/Skills</h2>
-                    <div className="inline-block sm:grid sm:grid-cols-3 sm:gap-3">
+                    <h2 className="section-title text-3xl">Technical Stacks/Skills</h2>
+                    <div className="inline-block sm:block">
                     {
                         techStacks.map( tech => {
                             return (

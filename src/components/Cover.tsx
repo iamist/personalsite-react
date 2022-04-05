@@ -21,7 +21,7 @@ const Cover: React.FC = () => {
                 <div className="sm:flex sm:flex-col sm:mr-20 sm:order-1">
                     <h1 className="text-3xl sm:text-4xl">Hello, I am <span className="text-slate-200 px-4 bg-orange-600">Christian Vicente</span></h1>
                     <p className="text-3xl sm:text-left my-4 py-0 sm:pt-3">
-                        A <span className="text-slate-200 inline">fullstack web developer</span> passionate in building awesome projects for the Web.
+                        A <span className="text-slate-200 inline">fullstack web developer</span> with great passion in building awesome projects for the Web.
                     </p>
                     <div className="cover-social mt-10 w-2/12">
                         <SocialMedia />

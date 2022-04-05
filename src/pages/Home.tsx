@@ -8,8 +8,10 @@ const Home: React.FC = () => {
     return (
         <div id="Home">
             <Cover />
-            <Experience experiences={experiences} />
-            <TechSkills techStacks={techStacks}></TechSkills>
+            <div className="sm:flex sm:flex-row">
+                <Experience experiences={experiences} />
+                <TechSkills techStacks={techStacks}></TechSkills>
+            </div>
         </div>
     )
 };

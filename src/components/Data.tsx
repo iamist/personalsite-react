@@ -106,6 +106,11 @@ export const techStacks = [
         progress: 75
     },
     {
+        title: 'Web SEO and Accessibility',
+        // progressLabel: 'Good',
+        progress: 75
+    },
+    {
         title: 'AWS, Docker, Jenkins, AppDynamics, Splunk, Jmeter',
         // progressLabel: 'Good',
         progress: 50

@@ -16,7 +16,7 @@ a:hover {
 }
 
 p, h3, h2 {
-    @apply my-6;
+    @apply my-4;
 }
 
 .container {
@@ -39,7 +39,7 @@ p, h3, h2 {
 }
 
 .section-title {
-    @apply text-4xl mb-10 font-bold inline-block pb-4 border-b-4 border-b-zinc-700;
+    @apply mb-10 font-bold inline-block pb-4 border-b-4 border-b-zinc-700;
 }
 
 .cover-social #socialMedia {
