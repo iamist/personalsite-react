@@ -14,7 +14,7 @@ interface IProps {
 const Header: React.FC<IProps> = ({headerNavItems}) => {
     return (
         <div className="w-full bg-zinc-900 border-b-slate-700 border-b-2">
-            <div className="flex flex-col sm:flex-row items-center justify-between text-2xl lg:text-xl sm:px-20 sm:py-0 pb-0 mb-10">
+            <div className="flex flex-col sm:flex-row items-center justify-between text-2xl lg:text-xl sm:px-20 sm:py-0 pb-0 mb-10 sm:mb-0">
                  <div className="brand font-bold bg-pink-600 text-teal-100 px-4 flex flex-column items-center py-4 mb-5 sm:mb-0 justify-between">
                     <div className="text-2xl mr-0.5">&lt;</div>
                     <div className="text-2xl">ist</div>

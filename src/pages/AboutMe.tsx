@@ -1,5 +1,5 @@
 import React from 'react';
-import { faAt, faMapPin, faPhone, faFilePdf } from '@fortawesome/free-solid-svg-icons';
+import { faAt, faMapMarkerAlt, faPhone, faFilePdf } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const AboutMe: React.FC = () => {
@@ -62,27 +62,27 @@ const AboutMe: React.FC = () => {
                 </div>
                 <div className="md:w-3/12">
                     <ul className="list-none full-rounded rounded-2xl bg-zinc-900 p-10">
-                        <li className="flex items-center text-orange-400 mb-4">
-                            <FontAwesomeIcon className="text-xl text-slate-200" icon={faMapPin} /> <span className="inline-block ml-2">General Trias, Cavite, Philippines</span>
+                        <li className="flex flex-1 text-orange-400 mb-4">
+                            <FontAwesomeIcon className="text-xl text-zinc-700" icon={faMapMarkerAlt} /> <span className="inline-block ml-2">General Trias, Cavite, Philippines</span>
                         </li>
                         <li className="mb-4">
-                            <a href="mailto:vicentechristian@gmail.com" className="flex items-center">
-                                <FontAwesomeIcon className="text-xl text-slate-200" icon={faAt} /> <span className="inline ml-2 text-left">
-                                e-mail me
+                            <a href="mailto:vicentechristian@gmail.com" className="flex flex-1">
+                                <FontAwesomeIcon className="text-xl text-zinc-700" icon={faAt} /> <span className="inline ml-2 text-left">
+                                vicentechristian@gmail.com
                                 </span>
                             </a>
                         </li>
                         <li className="mb-4">
-                            <a href="tel:+639175900647" className="flex items-center">
-                                <FontAwesomeIcon className="text-xl text-slate-200" icon={faPhone} /> <span className="inline-block ml-2 self-start">
-                                Call me
+                            <a href="tel:+639175900647" className="flex flex-1">
+                                <FontAwesomeIcon className="text-xl text-zinc-700" icon={faPhone} /> <span className="inline-block ml-2 self-start">
+                                contact me
                                 </span>
                             </a>
                         </li>
                         <li className="mb-4">
-                            <a href="https://drive.google.com/file/d/1qcJ7-ky2UyASKLZPq3NnKBq5vPiphjsj/view?usp=sharing" className="flex items-center" target="_blank" rel="noreferrer">
-                                <FontAwesomeIcon className="text-xl text-slate-200" icon={faFilePdf} /> <span className="inline-block ml-2 self-start">
-                                View my CV
+                            <a href="https://drive.google.com/file/d/1qcJ7-ky2UyASKLZPq3NnKBq5vPiphjsj/view?usp=sharing" className="flex flex-1" target="_blank" rel="noreferrer">
+                                <FontAwesomeIcon className="text-xl text-zinc-700" icon={faFilePdf} /> <span className="inline-block ml-2 self-start">
+                                view my CV
                                 </span>
                             </a>
                         </li>
